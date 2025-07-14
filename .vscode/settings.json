@@ -1,5 +1,5 @@
 {
   "java.project.referencedLibraries": [
-    "lib/javax.servlet-api-4.0.1.jar"
+    "lib/javax.servlet-api.jar"
   ]
 }
