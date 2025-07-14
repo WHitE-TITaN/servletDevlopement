@@ -1,0 +1,7 @@
+### Servlet Developement
+> in yor server file server.xml put this under localhost<br> 
+  ``` server.xml
+  <Host>
+    <Context docBase="path/to/cloned/repositry" path="/servletDevelopment" reloadable="true"/>
+  </Host>
+  
