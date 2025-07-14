@@ -18,6 +18,6 @@
   <!-- mapping the servlet to the root URL -->
   <servlet-mapping>
     <servlet-name>servletM</servlet-name>
-    <url-pattern>/</url-pattern>
+    <url-pattern>/testing</url-pattern>
   </servlet-mapping>
 </web-app>
