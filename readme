@@ -5,3 +5,37 @@
     <Context docBase="path/to/cloned/repositry" path="/servletDevelopment" reloadable="true"/>
   </Host>
   
+
+---
+
+## Repository Path Tree
+
+```
+.
+├── .git/
+├── .gradle/
+├── build/
+│   ├── resources/
+│   │   ├── test/
+│   │   └── main/
+│   └── classes/
+│       └── java/
+├── lib/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   └── WEB-INF/
+│       ├── web.xml
+│       ├── classes/
+│       └── lib/
+├── tomcat/
+│   └── bin/
+│       ├── catalina.bat
+│       ├── catalina.sh
+├── .gitignore
+├── build.gradle
+├── setting.gradle
+├── index.jsp
+└── readme
+```
+  
