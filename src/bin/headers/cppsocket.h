@@ -16,7 +16,7 @@ class inputSocket{
       return false;
     }
     Server = socket(AF_INET, SOCK_STREAM, 0);
-    //if(Server == INVALID)
+    if(Server == INVALID)
   }
   public:
 
