@@ -4,6 +4,9 @@
 #include <string>
 #include <queue>
 
+//custom headrs
+#include "headers/cppsocket.h"
+
 using namespace std;
 
 
@@ -89,6 +92,7 @@ class hoffmanCoding {
 
 int main(){
   cout<< "hello their! it's backend from c++\n";
-  hoffmanCoding hCoding("hello world how are you this is the heap head and the tail of the heap");
+  inputSocket server; // Start the server
+  //hoffmanCoding hCoding("hello world how are you this is the heap head and the tail of the heap");
   return 0;
 }
