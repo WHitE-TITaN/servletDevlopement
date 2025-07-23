@@ -18,7 +18,7 @@ public class hoffmancoding extends HttpServlet{
   protected void doGet(HttpServletRequest request, HttpServletResponse response)
           throws ServletException, IOException {
 
-    ProcessBuilder pb = new ProcessBuilder("C:\\Users\\dk488\\Documents\\GitHub\\servletDevlopement\\src\\bin\\backendwithcpp.exe");
+    ProcessBuilder pb = new ProcessBuilder("C:\\Users\\dk488\\Documents\\GitHub\\servletDevlopement\\src\\bin\\server.exe");
     pb.redirectErrorStream(true);
     Process process = pb.start();
 
